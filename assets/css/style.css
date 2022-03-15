@@ -69,7 +69,27 @@ h1, h2 {
 
 /* about */
 
+.main {
+    background-color:rgb(211,211,211);
+}
+
 #about {
+    margin-bottom: 30px;
     text-align: center;
+}
+
+#we-offer {
+    text-align: left;
     margin-top: 50px;
+    padding-left: 50px;
+}
+
+
+#pricing {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.list-tab {
+    display: inline-block;
 }
