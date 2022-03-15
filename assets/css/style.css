@@ -9,4 +9,18 @@
 body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
+    color: black;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Roboto+Condensed, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
