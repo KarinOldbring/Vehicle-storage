@@ -8,12 +8,14 @@
     <meta name="description" content="Oldbring Vehicle Storage for storage rental in Linkoping, Sweden.">
     <meta name="keywords" content="oldbring, vehicle, storage, linkoping, sweden">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/5d621cadca.js" crossorigin="anonymous"></script>
     <title>Oldbring Vehicle Storage</title>
 </head>
 
 <body>
 
+<header>
     <a href="index.html">
         <h1 id="logo">Oldbring Vehicle Storage</h1>
     </a>
@@ -30,94 +32,109 @@
             </li>
         </ul>
     </nav>
+</header>
 
-
-    <header>
-        <div class="section">
-            <img src="assets/images/pexels-photo-2476345.jpeg" alt="Interior image of a vintage car" id="image">
-        </div>
-    </header>
-
-    <main>
-        <div class="main">
-            <div id="center">
-                <h2>Store your vehicle here!</h2>
-            </div>
-
-            <div class="main" id="left">
-                <h3>We offer:</h3>
-                <ul>
-                    <li>Personalized storage solutions for all kinds of vehicles</li>
-                    <li>Our indoor storage facility provides the perfect place to keep your precious vehicle</li>
-                    <li>Located only 9 km from Linkoping</li>
-                    <li>Flexible opening hours</li>
-                </ul>
-            </div>
-
-            <div class="main" id="right">
-                <table>
-                    <tr>
-                        <th>Type:</th>
-                        <th>Price from:</th>
-                    </tr>
-                    <tr>
-                        <td>Motorcycle</td>
-                        <td>1000 SEK</td>
-                    </tr>
-                    <tr>
-                        <td>Water scooter</td>
-                        <td>1000 SEK</td>
-                    </tr>
-                    <tr>
-                        <td>Car</td>
-                        <td>2000 SEK</td>
-                    </tr>
-                    <tr>
-                        <td>Boat</td>
-                        <td>2000 SEK</td>
-                    </tr>
-                    <tr>
-                        <td>Caravan</td>
-                        <td>3000 SEK</td>
-                    </tr>
-            </div>
-
-            </table>
-        </div>
+    <main class="container">
+        <img src="./assets/images/pexels-photo-2476345.jpeg" alt="Interior of a vintage car">
+        <div class="sub-image">
+            <h1>Oldbring Vehicle Storage</h1> 
+            <br>
+            <p>Safe indoor storage for all kinds of vehicles!</p>
+        </div>   
     </main>
 
-    </div>
-    <form action="XXX" method="post">
-        <a name="signup"></a>
-        <h2>Sign up!</h2>
-        <label for="fname">Full name:</label>
-        <input type="text" name="fname">
-        <label for="number">Phone number:</label>
-        <input type="number" name="number">
-        <label for="email">Email address:</label>
-        <input type="email" name="email">
-        <input type="submit" name="submit">
-    </form>
+<div id="about">
+    <h2>Store your vehicle here!</h2>
+        <p>We provide the perfect place to keep your caravan, motorcycle, vintage car or other leisure vehicle safe and secure!</p>
+</div>
 
-    <footer>
-        <h2>Contact info</h2>
+<section class="container">
+   <div class="sub-about">
+        <h3>We offer:</h3>
+            <ul>
+                <li>Personalized storage solutions for all kinds of vehicles</li>
+                <li>Our indoor storage facility provides the perfect place to keep your precious vehicle</li>
+                <li>Located only 9 km from Linkoping</li>
+                <li>Flexible opening hours</li>
+            </ul>
+    </div>
+
+    <div class="sub-about">
+        <img src="./assets/images/car.jpeg.jpeg" alt="Old sportscar in front of garage" id="second-image">
+    </div>
+
+    <div class="sub-about">
+        <table>
+            <tr>
+                <th>Type:</th>
+                <th>Price from:</th>
+            </tr>
+            <tr>
+                <td>Motorcycle</td>
+                <td>1000 SEK</td>
+            </tr>
+            <tr>
+                <td>Water scooter</td>
+                <td>1000 SEK</td>
+            </tr>
+            <tr>
+                <td>Car</td>
+                <td>2000 SEK</td>
+            </tr>
+            <tr>
+                <td>Boat</td>
+                <td>2000 SEK</td>
+            </tr>
+            <tr>
+                <td>Caravan</td>
+                <td>3000 SEK</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="signup" class="container" >
+    
+        <form action="https://formdump.codeinstitute.net/">
+            <h2>Sign up!</h2>
+            <label for="fname">Full name:</label>
+            <input id="fname" type="text" name="fname">
+            <label for="number">Phone number:</label>
+            <input id="number" type="number" name="number">
+            <label for="email">Email address:</label>
+            <input id="email" type="email" name="email">
+            <input type="submit" value="Submit" id="submit">
+        </form>
+   
+</section>
+
+
+<footer>
+    <div id="contact" class="contact">
+        <h2>Contact info!</h2>
             <p>Phone: +46 739 60 99 10</p>
             <p>Email: <a href="karin.oldbring@gmail.com">karin.oldbring@gmail.com</a> </p>
+    </div>
+    <div class="contact">
+        <h2>Find Us Here!</h2>
+        <iframe title="Link to Google maps showing location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2086.825916079362!2d15.679121815825102!3d58.463755387160035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465969073111cc53%3A0x28fb49845b9e9ba!2sV%C3%A4stra%20TORP%201%2C%20585%2091%20Link%C3%B6ping!5e0!3m2!1ssv!2sse!4v1647691715912!5m2!1ssv!2sse" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
         <ul class="social">
             <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" 
+                aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+                aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
                 <a href="https://twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a>
+                aria-label="Visit our Twitter page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a>
             </li>
         </ul>
-    </footer>
+</footer>
 
 </body>
 

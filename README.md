@@ -1,108 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ** Oldbring Vehicle Storage**
 
-Welcome Karin Oldbring,
+Oldbring Vehicle Storage is a site designed to help people who are in need of storage for vehicles, whether it be vintage cars, boats or motorhomes. The site is targeted for people living in and around Linkoping, Sweden, who are looking for a safe and secure place for their leisure vehicles. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## ** Planning Stage**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### **Targeted Audience**
+* Users living nearby Linkoping who own leisure vehicles. 
+* Users in need of flexible and large storage units. 
 
-## Gitpod Reminders
+### **Site Aims**
+* Create a site so that users can search online and find a place to store vehicles. 
+* Show the user the benefits of using Oldbring Vehicle Storage. 
+* Provide the user with price information and the location of the business. 
+* Give the user an opportunity to get in touch or be contacted by Oldbring Vehicle Storage. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### **Wireframes** 
+To help organize the approach of this website I designed a basic wireframe to structure the layout for the different page areas. I consulted my father, who mainly runs the business, to make sure that the necessary information is included on the site. 
+The different page areas consist of: 
+* About
+* Sign Up
+* Contact
 
-`python3 -m http.server`
+In general I stayed true to the initial design throughout the project.
 
-A blue button should appear to click: _Make Public_,
+### **Design choises**
+* I chose a color scheme that I find clean and suits well with the hero image and more importantly easy to read for the user. I chose a very light grey (#e1e1e1) as background color for the entire page, to keep consistency. To ensure there is good contrast I set the text black (#000000). 
+* As font I used Oswald for my headings and Roboto Condensed for the body text, ('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap'). 
 
-Another blue button should appear to click: _Open Browser_.
+## **Features**
+### **Nav-bar**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* The Nav-bar enables the user to easily navigate and find information required. It is located on the very top of the page. 
+* For ease of navigation the different links of the nav-bar are underlined when hovered over. As the page size decreases the nav-bar is responsive and displays under the company name rather than horizontally along it. 
+* Allows the user to skip to vital parts without having to scroll.
 
-A blue button should appear to click: _Make Public_,
+### **Hero-Image**
+* The image represents one of the many types of vehicles that can be stored.
+* The classic car is supposed to give the user a sense that Oldbring Vehicle Storage have a solid experience of handling precious vehicles. 
+* The hero-image is supposed to work as an eye catcher when visiting the site. 
+* The image doesn't have a key function for the site but is chosen from a design perspective. To make sure all users, including those using screen readers, have an equal experience when visiting the site an explanatory alt attribute was added. 
 
-Another blue button should appear to click: _Open Browser_.
+### **About**
+* The About section will allow the user to see the advantages of storing their vehicle at Oldbring Vehicle Storage. 
+* Here the user will find vital information regarding what we offer and also price proposals. As the page size decreases the text area make up more of the page and the image is being pushed below to improve user experience. 
+* The information provided in this section gives the user vital information to determine whether they want to pursue collaboration. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### **Sign Up
+* A sign-up form allows the user to leave their contact information if they wish to be contacted. 
+* The user will be asked to submit their contact information and then submit it. 
+* A sign-up form is used to increase the customer base and gives the business owner a possibility to reach out to potential clients. 
 
-To log into the Heroku toolbelt CLI:
+### **Contact**
+* The contact section gives the user the contact information for the business, and also the exact location. 
+* If a user for some reason does not want to leave their contact information this section enabled the user to easily get in touch with Oldbring Vehicle Storage. Phone, email and Google Maps are displayed. 
+* For this kind of business location is key and using Google Maps enables the user to get exat location of the business from their own location. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### **Footer**
+* Apart from the contact information the footer also contains links for various social media. 
+* Social media are shown by using clickable links, making it easier for the user to visit. 
+* Since many users today use social media as a way of retrieving information regarding a specific company this section helps them get there fast and easy. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## **Future features to be added**
+The Oldbring Vehicle Storage site is currently at the minimum viable product stage. Future features to be added to increase site usability include: 
+* Virtual video tours of the facilities
+* Online booking of storage space
+* Online payment
 
-------
+## **Testing**
 
-## Release History
+### **Responsiveness**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### **Lighthouse**
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### **Validators**
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## **Bugs**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## **Deployment**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## **Technology used**
+Oldbring Vehicle Storage was built using HTML5 and CSS. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## **Credits**
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### **Content**
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### **Media**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### **Thanks**
