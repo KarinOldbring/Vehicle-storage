@@ -23,13 +23,12 @@ The different page areas consist of:
 
 In general I stayed true to the initial design throughout the project.
 
-### **Design choises**
+### **Design choices**
 * I chose a color scheme that I find clean and suits well with the hero image and more importantly easy to read for the user. I chose a very light grey (#e1e1e1) as background color for the entire page, to keep consistency. To ensure there is good contrast I set the text black (#000000). 
 * As font I used Oswald for my headings and Roboto Condensed for the body text, ('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap'). 
 
 ## **Features**
 ### **Nav-bar**
-
 * The Nav-bar enables the user to easily navigate and find information required. It is located on the very top of the page. 
 * For ease of navigation the different links of the nav-bar are underlined when hovered over. As the page size decreases the nav-bar is responsive and displays under the company name rather than horizontally along it. 
 * Allows the user to skip to vital parts without having to scroll.
