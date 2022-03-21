@@ -113,8 +113,12 @@ Oldbring Vehicle Storage was built using HTML5 and CSS.
 ## **Credits**
 
 ### **Content**
-
+* [Oldbring Vehicle Storage](https://karinoldbring.github.io/Vehicle-storage/) all information on the website is in relation to Oldbring Vehicle Storage and was used with their permission. 
+* The project was influenced by the Code Institutes code along project called Love running and the sample website in Portfolio 1. Whilst I have tried to deviate as much as possible and do my own thing, there may be some similarities in the code.
+* For general research when tackling something I generally relied on the previous CI-course content and W3 Schools for information.
+* Icons used are from [Font Awesome](https://fontawesome.com/) 
 ### **Media**
 * The images used on the site were taken from [Pexels](https://www.pexels.com/)
 
 ### **Thanks**
+* Many thanks to fellow students Matt Bodden_5P (regarding display/positioning) and Chris_Williams_5P (regarding media queries) for great support. Also many thanks to [Richard Wells](https://github.com/D0nni387) - Code Institute mentor, who has given me invaluable advice during this project! 
