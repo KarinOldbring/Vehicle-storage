@@ -121,4 +121,4 @@ Oldbring Vehicle Storage was built using HTML5 and CSS.
 * The images used on the site were taken from [Pexels](https://www.pexels.com/)
 
 ### **Thanks**
-* Many thanks to fellow students Matt Bodden_5P (regarding display/positioning) and Chris_Williams_5P (regarding media queries) for great support. Also many thanks to [Richard Wells](https://github.com/D0nni387) - Code Institute mentor, who has given me invaluable advice during this project! 
+* Many thanks to my fellow students Matt Bodden_5P (regarding display/positioning) and Chris_Williams_5P (regarding media queries) for great support. Also many thanks to [Richard Wells](https://github.com/D0nni387) - Code Institute mentor, who has given me invaluable advice during this project! 
