@@ -75,23 +75,37 @@ I have performed extensive testing to make sure that the site is fully responsiv
 To make sure the site works well on all screen sizes I found three different key widths were necessary. 
 1. **Laptops and desktops 1200px and below**
     * About section
-    Divs are displayed on top of each other rather than side by side. The size was also adjusted to better fit the screen size. 
+        * Divs are displayed on top of each other rather than side by side. The size was also adjusted to better fit the screen size. 
 2. **Smaller laptops and devices 900px and below**
     * Nav-bar
-    Smaller font-size for a better fit. The nav-bar list is to be displayed underneath company name, and in column on left hand side. 
+        * Smaller font-size for a better fit. The nav-bar list is to be displayed underneath company name, and in column on left hand side. 
     * Submit
-    The size of the forms submit button was changed to be clearly visible even on smaller devices. 
+        * The size of the forms submit button was changed to be clearly visible even on smaller devices. 
 3. **Smaller devices 500px and below**
     * Hero-image
-    The text box in the hero image is removed and the actual text is instead placed underneath the hero image. The font-size is also reduced. 
+        * The text box in the hero image is removed and the actual text is instead placed underneath the hero image. The font-size is also reduced. 
 
 ### **Lighthouse**
+All sections have been tested with Lighthouse for both mobile and desktop versions. The score for desktop was between 99-100 and for mobile between 98-100. 
+I found Lighthouse to be very helpful for identify poor practices such as using aria-labels on the input-fields in the form and title to the Google maps-link. 
 
 ### **Validators**
+All HTML files were run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard.
 
 ## **Bugs**
+There are no known bugs on the site. 
 
 ## **Deployment**
+I deployed the website on GitHub pages via the following:
+
+1. From the projects repository go to the **settings** tab
+1. On the left hand menu near the bottom click on the **pages** link
+1. Under **Source** click on the button "None" which will produce a drop down
+1. Click on **Main** and then click **Save**
+1. The following message will appear:  **Your site is ready to be published**
+1. After a few minutes the site will be published and the message will change to **Your site is published**
+
+You can access the live site via the following link [Oldbring Vehicle Storage](https://karinoldbring.github.io/Vehicle-storage/)
 
 ## **Technology used**
 Oldbring Vehicle Storage was built using HTML5 and CSS. 
@@ -101,5 +115,6 @@ Oldbring Vehicle Storage was built using HTML5 and CSS.
 ### **Content**
 
 ### **Media**
+* The images used on the site were taken from [Pexels](https://www.pexels.com/)
 
 ### **Thanks**
