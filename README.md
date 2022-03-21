@@ -67,8 +67,23 @@ The Oldbring Vehicle Storage site is currently at the minimum viable product sta
 * Online payment
 
 ## **Testing**
+I have tested the site in Chrome, Edge and Firefox browsers, using Dev Tools to test responsiveness. I have also reviewed the site on both Android and IOS and experienced no issues. 
 
 ### **Responsiveness**
+http://ami.responsivedesign.is/?url=https%3A%2F%2Fkarinoldbring.github.io%2FVehicle-storage%2F
+I have performed extensive testing to make sure that the site is fully responsive on small, medium and large siza screens. As well as testing in dev tools and using various mobile devices I also used "Am I Responsive" to ensure responsiveness. No website breaking issues were found. 
+To make sure the site works well on all screen sizes I found three different key widths were necessary. 
+1. **Laptops and desktops 1200px and below**
+    * About section
+    Divs are displayed on top of each other rather than side by side. The size was also adjusted to better fit the screen size. 
+2. **Smaller laptops and devices 900px and below**
+    * Nav-bar
+    Smaller font-size for a better fit. The nav-bar list is to be displayed underneath company name, and in column on left hand side. 
+    * Submit
+    The size of the forms submit button was changed to be clearly visible even on smaller devices. 
+3. **Smaller devices 500px and below**
+    * Hero-image
+    The text box in the hero image is removed and the actual text is instead placed underneath the hero image. The font-size is also reduced. 
 
 ### **Lighthouse**
 
