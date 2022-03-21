@@ -29,38 +29,32 @@ In general I stayed true to the initial design throughout the project.
 
 ## **Features**
 ### **Nav-bar**
-![nav-bar](https://user-images.githubusercontent.com/99074727/159254476-364b5805-4c01-4b75-81fb-c8639ef47fff.png)
 * The Nav-bar enables the user to easily navigate and find information required. It is located on the very top of the page. 
 * For ease of navigation the different links of the nav-bar are underlined when hovered over. As the page size decreases the nav-bar is responsive and displays under the company name rather than horizontally along it. 
 * Allows the user to skip to vital parts without having to scroll.
 
 ### **Hero-Image**
-![Hero-image](https://user-images.githubusercontent.com/99074727/159253807-5b4cd2a2-381e-452e-a608-dfad787fe453.png)
 * The image represents one of the many types of vehicles that can be stored.
 * The classic car is supposed to give the user a sense that Oldbring Vehicle Storage have a solid experience of handling precious vehicles. 
 * The hero-image is supposed to work as an eye catcher when visiting the site. 
 * The image doesn't have a key function for the site but is chosen from a design perspective. To make sure all users, including those using screen readers, have an equal experience when visiting the site an explanatory alt attribute was added. 
 
 ### **About**
-![about](https://user-images.githubusercontent.com/99074727/159254653-92eb0746-3ffd-41a5-9cec-fedd8c266ab7.png)
 * The About section will allow the user to see the advantages of storing their vehicle at Oldbring Vehicle Storage. 
 * Here the user will find vital information regarding what we offer and also price proposals. As the page size decreases the text area make up more of the page and the image is being pushed below to improve user experience. 
 * The information provided in this section gives the user vital information to determine whether they want to pursue collaboration. 
 
 ### **Sign Up
-![sign-up](https://user-images.githubusercontent.com/99074727/159255254-291d4298-8f7a-4cbd-9829-8b160a3bc9c4.png)
 * A sign-up form allows the user to leave their contact information if they wish to be contacted. 
 * The user will be asked to submit their contact information and then submit it. 
 * A sign-up form is used to increase the customer base and gives the business owner a possibility to reach out to potential clients. 
 
 ### **Contact**
-![contact](https://user-images.githubusercontent.com/99074727/159255220-cea4980b-c422-4e5e-95bb-45ce9840a9b5.png)
 * The contact section gives the user the contact information for the business, and also the exact location. 
 * If a user for some reason does not want to leave their contact information this section enabled the user to easily get in touch with Oldbring Vehicle Storage. Phone, email and Google Maps are displayed. 
 * For this kind of business location is key and using Google Maps enables the user to get exat location of the business from their own location. 
 
 ### **Footer**
-![socialmedia](https://user-images.githubusercontent.com/99074727/159255246-59fd75eb-1bb3-4dd5-9122-f052c810c3f6.png)
 * Apart from the contact information the footer also contains links for various social media. 
 * Social media are shown by using clickable links, making it easier for the user to visit. 
 * Since many users today use social media as a way of retrieving information regarding a specific company this section helps them get there fast and easy. 
@@ -75,7 +69,6 @@ The Oldbring Vehicle Storage site is currently at the minimum viable product sta
 I have tested the site in Chrome, Edge and Firefox browsers, using Dev Tools to test responsiveness. I have also reviewed the site on both Android and IOS and experienced no issues. 
 
 ### **Responsiveness**
-![AmIResponisive](https://user-images.githubusercontent.com/99074727/159252587-ecf75bfb-78dd-4215-b35e-ff834c8ed0b4.png)
 http://ami.responsivedesign.is/?url=https%3A%2F%2Fkarinoldbring.github.io%2FVehicle-storage%2F
 I have performed extensive testing to make sure that the site is fully responsive on small, medium and large siza screens. As well as testing in dev tools and using various mobile devices I also used "Am I Responsive" to ensure responsiveness. No website breaking issues were found. 
 To make sure the site works well on all screen sizes I found three different key widths were necessary. 
@@ -92,7 +85,6 @@ To make sure the site works well on all screen sizes I found three different key
         * The text box in the hero image is removed and the actual text is instead placed underneath the hero image. The font-size is also reduced. 
 
 ### **Lighthouse**
-![Lighthouse-score](https://user-images.githubusercontent.com/99074727/159255981-682d293e-0861-4828-8c72-44c6ba7693cf.png)
 All sections have been tested with Lighthouse for both mobile and desktop versions. The score for desktop was between 99-100 and for mobile between 98-100. 
 I found Lighthouse to be very helpful for identify poor practices such as using aria-labels on the input-fields in the form and title to the Google maps-link. 
 
