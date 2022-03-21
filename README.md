@@ -70,6 +70,8 @@ The Oldbring Vehicle Storage site is currently at the minimum viable product sta
 I have tested the site in Chrome, Edge and Firefox browsers, using Dev Tools to test responsiveness. I have also reviewed the site on both Android and IOS and experienced no issues. 
 
 ### **Responsiveness**
+![AmIResponisive](https://user-images.githubusercontent.com/99074727/159252587-ecf75bfb-78dd-4215-b35e-ff834c8ed0b4.png)
+
 http://ami.responsivedesign.is/?url=https%3A%2F%2Fkarinoldbring.github.io%2FVehicle-storage%2F
 I have performed extensive testing to make sure that the site is fully responsive on small, medium and large siza screens. As well as testing in dev tools and using various mobile devices I also used "Am I Responsive" to ensure responsiveness. No website breaking issues were found. 
 To make sure the site works well on all screen sizes I found three different key widths were necessary. 
@@ -86,6 +88,9 @@ To make sure the site works well on all screen sizes I found three different key
         * The text box in the hero image is removed and the actual text is instead placed underneath the hero image. The font-size is also reduced. 
 
 ### **Lighthouse**
+![LighthouseMobile Project1](https://user-images.githubusercontent.com/99074727/159252744-2e19addf-19ba-4bc6-8fa2-1cd4a50a6bf7.png)
+![LighthouseDesktop Projet1](https://user-images.githubusercontent.com/99074727/159252754-911c378b-d855-4867-a423-a94ea2e5d31d.png)
+
 All sections have been tested with Lighthouse for both mobile and desktop versions. The score for desktop was between 99-100 and for mobile between 98-100. 
 I found Lighthouse to be very helpful for identify poor practices such as using aria-labels on the input-fields in the form and title to the Google maps-link. 
 
