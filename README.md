@@ -45,7 +45,7 @@ In general I stayed true to the initial design throughout the project.
 * Here the user will find vital information regarding what we offer and also price proposals. As the page size decreases the text area make up more of the page and the image is being pushed below to improve user experience. 
 * The information provided in this section gives the user vital information to determine whether they want to pursue collaboration. 
 
-### **Sign Up
+### **Sign Up**
 * A sign-up form allows the user to leave their contact information if they wish to be contacted. 
 * The user will be asked to submit their contact information and then submit it. 
 * A sign-up form is used to increase the customer base and gives the business owner a possibility to reach out to potential clients. 
