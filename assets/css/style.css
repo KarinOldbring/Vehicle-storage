@@ -229,6 +229,7 @@ form h2 {
         padding-left: 10px;
         float: left;
     }
+}
 
     #submit {
         padding: 3px;
@@ -252,5 +253,27 @@ form h2 {
 
     #logo {
         font-size: 120%;
+    }
+}
+
+/* media queries for smaller devices 400px and below */
+@media screen and (max-width: 400px) {
+    div.contact {
+     margin: 10px;
+     padding: 15px;
+     display: flex;
+     justify-content:center;
+     flex-direction: column;
+    }
+    ul.social {
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left:140px;
+    }
+    iframe {
+     width:90%;
     }
 }
