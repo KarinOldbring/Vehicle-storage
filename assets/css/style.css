@@ -38,7 +38,7 @@ h3 {
     margin-left: 30px;
 }
 
-/* navigation*/
+/* navigation */
 
 #nav-bar {
     font-size: 110%;
@@ -67,6 +67,14 @@ h3 {
     border-bottom: solid 1px #000000;
 }
 
+/* hero-image */
+
+.container {
+    width: 100%;
+    display: flex;
+    vertical-align: top;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -85,12 +93,6 @@ img {
     position: absolute; 
     padding: 1rem;
     border-radius: 25px;   
-}
-
-.container {
-    width: 100%;
-    display: flex;
-    vertical-align: top;
 }
 
 /* about */
@@ -152,6 +154,8 @@ form h2 {
     width: 20%;
 }
 
+/* contact */
+
 .contact {
     padding: 3rem;
     text-align: center;
@@ -183,43 +187,52 @@ form h2 {
     color: #000000;
 }
 
-/*media queries for laptops and desktops 1200px and below*/
+/* media queries for laptops and desktops 1200px and below */
+
 @media screen and (max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
     .sub-about {
         width: 65%;
         height: auto;
         margin: 0 auto;
     }
+
     .sub-about > div {
         display: block;
     }
+
     #second-image {
         clear: both;
         width: 100%;
         padding: 0;
     }
+
     hr {
         display: none;
     }
-    .container {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+
     form {
         width: auto;
     }
 }
 
-/*media queries for smaller laptops and devices 900px and below*/
+/* media queries for smaller laptops and devices 900px and below */
+
 @media screen and (max-width: 900px) {
     #logo {
         letter-spacing: 1.5px;
         margin-left: 10px;
         font-size: 200%;
     }
+
     #nav-bar {
         line-height: 40px;
     }
+
     #nav-bar li {
         display: inline-flex;
         flex-direction: row-reverse;
@@ -228,6 +241,7 @@ form h2 {
         padding-left: 10px;
         float: left;
     }
+
     #submit {
         padding: 3px;
         width: 50%;
@@ -241,16 +255,20 @@ form h2 {
         display: flex;
         justify-content: center;
     }
+
      .sub-image > p {
         display: flex;
         justify-content: center;
     }
+
      .sub-image {
         all: unset;
     }
+
     #logo {
         font-size: 120%;
     }
+
     iframe {
         width:auto;
     }
@@ -265,6 +283,11 @@ form h2 {
         justify-content:center;
         flex-direction: column;
     }
+
+    iframe {
+        width:90%;
+    }
+
     ul.social {
         text-align: center;
         display: flex;
@@ -272,8 +295,5 @@ form h2 {
         list-style-type: none;
         justify-content: space-between;
         padding-left:140px;
-    }
-    iframe {
-        width:90%;
     }
 }
