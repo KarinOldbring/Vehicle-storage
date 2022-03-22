@@ -181,7 +181,6 @@ footer {
 }
 
 /* media queries for laptops and desktops 1200px and below */
-
 @media screen and (max-width: 1200px) {
     .container {
         display: flex;
@@ -214,7 +213,6 @@ footer {
 }
 
 /* media queries for smaller laptops and devices 900px and below */
-
 @media screen and (max-width: 900px) {
     #logo {
         letter-spacing: 1.5px;
@@ -243,19 +241,8 @@ footer {
 
 /* media queries for smaller devices 500px and below */
 @media screen and (max-width: 500px) {
-    .sub-image>h1 {
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .sub-image>p {
-        display: flex;
-        justify-content: center;
-    }
-
     .sub-image {
-        all: unset;
+        display: none;
     }
 
     #logo {
@@ -287,6 +274,5 @@ footer {
         flex-direction: row;
         list-style-type: none;
         justify-content: space-between;
-        padding-left: 140px;
     }
 }
