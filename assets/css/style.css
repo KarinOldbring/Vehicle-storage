@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
-a h1{
+a h1 {
     color: #000000;
 }
 
@@ -23,9 +23,8 @@ body {
 }
 
 /* headings and logo */
-
 h1,
-h2, 
+h2,
 h3 {
     font-family: RobotoCondensed, sans-serif;
     text-transform: capitalize;
@@ -39,7 +38,6 @@ h3 {
 }
 
 /* navigation */
-
 #nav-bar {
     font-size: 110%;
     letter-spacing: 3px;
@@ -68,7 +66,6 @@ h3 {
 }
 
 /* hero-image */
-
 .container {
     width: 100%;
     display: flex;
@@ -81,28 +78,27 @@ img {
     margin-right: auto;
     width: 100%;
     margin-top: 50px;
- }
+}
 
-.sub-image {   
+.sub-image {
     width: 30%;
     right: 0;
     top: 40%;
     background-color: #323232;
     color: #FFFFFF;
     text-align: center;
-    position: absolute; 
+    position: absolute;
     padding: 1rem;
-    border-radius: 25px;   
+    border-radius: 25px;
 }
 
 /* about */
-
 #about {
     text-align: center;
     margin: 30px;
 }
 
-#about > p {
+#about>p {
     margin-top: 10px;
 }
 
@@ -117,7 +113,7 @@ img {
     margin: 0;
 }
 
-ul > li { 
+ul>li {
     margin: 5px 0px;
 }
 
@@ -131,7 +127,6 @@ th {
 }
 
 /* sign-up */
-
 form {
     display: flex;
     flex-direction: column;
@@ -155,30 +150,28 @@ form h2 {
 }
 
 /* contact */
-
 .contact {
     padding: 3rem;
     text-align: center;
     width: 50%;
- } 
+}
 
- .contact > h2 {
-     margin-bottom: 15px;
- }
+.contact>h2 {
+    margin-bottom: 15px;
+}
 
 /* footer */
-
- footer {
-     height: 150px;
- }
+footer {
+    height: 150px;
+}
 
 .social {
-     text-align: center;
-     display: flex;
-     padding: 3rem;
-     list-style-type: none;
-     justify-content: space-evenly;
- }
+    text-align: center;
+    display: flex;
+    padding: 3rem;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
 
 .social i {
     font-size: 160%;
@@ -194,14 +187,14 @@ form h2 {
         display: flex;
         flex-direction: column-reverse;
     }
-    
+
     .sub-about {
         width: 65%;
         height: auto;
         margin: 0 auto;
     }
 
-    .sub-about > div {
+    .sub-about>div {
         display: block;
     }
 
@@ -246,22 +239,22 @@ form h2 {
         padding: 3px;
         width: 50%;
     }
-}   
+}
 
 /* media queries for smaller devices 500px and below */
 @media screen and (max-width: 500px) {
-     .sub-image > h1 {
+    .sub-image>h1 {
         font-size: 20px;
         display: flex;
         justify-content: center;
     }
 
-     .sub-image > p {
+    .sub-image>p {
         display: flex;
         justify-content: center;
     }
 
-     .sub-image {
+    .sub-image {
         all: unset;
     }
 
@@ -270,7 +263,7 @@ form h2 {
     }
 
     iframe {
-        width:auto;
+        width: auto;
     }
 }
 
@@ -280,20 +273,20 @@ form h2 {
         margin: 10px;
         padding: 15px;
         display: flex;
-        justify-content:center;
+        justify-content: center;
         flex-direction: column;
     }
 
     iframe {
-        width:90%;
+        width: 90%;
     }
 
     ul.social {
         text-align: center;
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         list-style-type: none;
         justify-content: space-between;
-        padding-left:140px;
+        padding-left: 140px;
     }
 }

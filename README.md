@@ -1,5 +1,5 @@
 # ** Oldbring Vehicle Storage**
-
+![AmIResponsive](./docs/screenshots/AmIResponsive.png)
 Oldbring Vehicle Storage is a site designed to help people who are in need of storage for vehicles, whether it be vintage cars, boats or motorhomes. The site is targeted for people living in and around Linkoping, Sweden, who are looking for a safe and secure place for their leisure vehicles. 
 
 ## ** Planning Stage**
@@ -62,7 +62,7 @@ In general I stayed true to the initial design throughout the project.
 
 ### **Footer**
 ![Footer](docs/screenshots/socialmedia.png)
-* Apart from the contact information the footer also contains links for various social media. 
+* The footer contains links for various social media. 
 * Social media are shown by using clickable links, making it easier for the user to visit. 
 * Since many users today use social media as a way of retrieving information regarding a specific company this section helps them get there fast and easy. 
 
@@ -104,7 +104,7 @@ I found Lighthouse to be very helpful for identifying poor practices such as usi
 All HTML files were run through (https://validator.w3.org/nu/#textarea) and my CSS file was run through (https://jigsaw.w3.org/css-validator/validator) to ensure all code meets the correct standard.
 
 ## **Bugs**
-There are no known bugs on the site. 
+The Google maps API is not always loading properly due to a 500 server issue, which I at my current skill level unfortunately am incapable of correcting. 
 
 ## **Deployment**
 I deployed the website on GitHub pages via the following:
