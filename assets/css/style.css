@@ -152,23 +152,23 @@ form h2 {
     width: 20%;
 }
 
-/* footer */
-
- footer {
-     height: 150px;
- }
-
- .contact {
+.contact {
     padding: 3rem;
     text-align: center;
-    width: 100%;
+    width: 50%;
  } 
 
  .contact > h2 {
      margin-bottom: 15px;
  }
 
- .social {
+/* footer */
+
+ footer {
+     height: 150px;
+ }
+
+.social {
      text-align: center;
      display: flex;
      padding: 3rem;
