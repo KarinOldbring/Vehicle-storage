@@ -15,6 +15,7 @@ Oldbring Vehicle Storage is a site designed to help people who are in need of st
 * Give the user an opportunity to get in touch or be contacted by Oldbring Vehicle Storage. 
 
 ### **Wireframes** 
+![Wirefram](./docs/screenshots/wireframe.png)
 To help organize the approach of this website I designed a basic wireframe to structure the layout for the different page areas. I consulted my father, who mainly runs the business, to make sure that the necessary information is included on the site. 
 The different page areas consist of: 
 * About
@@ -97,7 +98,7 @@ All sections have been tested with Lighthouse for both mobile and desktop versio
 I found Lighthouse to be very helpful for identify poor practices such as using aria-labels on the input-fields in the form and title to the Google maps-link. 
 
 ### **Validators**
-All HTML files were run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard.
+All HTML files were run through (https://validator.w3.org/nu/#textarea) and my CSS file was run through (https://jigsaw.w3.org/css-validator/validator) to ensure all code meets the correct standard.
 
 ## **Bugs**
 There are no known bugs on the site. 
