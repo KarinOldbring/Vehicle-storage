@@ -12,10 +12,10 @@ Oldbring Vehicle Storage is a site designed to help people who are in need of st
 * Create a site so that users can search online and find a place to store vehicles. 
 * Show the user the benefits of using Oldbring Vehicle Storage. 
 * Provide the user with price information and the location of the business. 
-* Give the user an opportunity to get in touch or be contacted by Oldbring Vehicle Storage. 
+* Give the user an opportunity to get in touch with or be contacted by Oldbring Vehicle Storage. 
 
 ### **Wireframes** 
-![Wirefram](./docs/screenshots/wireframe.png)
+![Wireframes](./docs/screenshots/wireframe.png)
 To help organize the approach of this website I designed a basic wireframe to structure the layout for the different page areas. I consulted my father, who mainly runs the business, to make sure that the necessary information is included on the site. 
 The different page areas consist of: 
 * About
@@ -57,7 +57,7 @@ In general I stayed true to the initial design throughout the project.
 ### **Contact**
 ![Contact](docs/screenshots/contact.png)
 * The contact section gives the user the contact information for the business, and also the exact location. 
-* If a user for some reason does not want to leave their contact information this section enabled the user to easily get in touch with Oldbring Vehicle Storage. Phone, email and Google Maps are displayed. 
+* If a user for some reason does not want to leave their contact information, this section enables the user to easily get in touch with Oldbring Vehicle Storage. Phone, email and Google Maps are displayed. 
 * For this kind of business location is key and using Google Maps enables the user to get exat location of the business from their own location. 
 
 ### **Footer**
@@ -78,8 +78,8 @@ I have tested the site in Chrome, Edge and Firefox browsers, using Dev Tools to 
 ### **Responsiveness**
 ![AmIResponsive](docs/screenshots/AmIResponsive.png)
 http://ami.responsivedesign.is/?url=https%3A%2F%2Fkarinoldbring.github.io%2FVehicle-storage%2F
-I have performed extensive testing to make sure that the site is fully responsive on small, medium and large siza screens. As well as testing in dev tools and using various mobile devices I also used "Am I Responsive" to ensure responsiveness. No website breaking issues were found. 
-To make sure the site works well on all screen sizes I found three different key widths were necessary. 
+I have performed extensive testing to make sure that the site is fully responsive on small, medium and large size screens. As well as testing in dev tools and using various mobile devices I also used "Am I Responsive" to ensure responsiveness. No website breaking issues were found. 
+To make sure the site works well on all screen sizes I found four different key widths were necessary. 
 1. **Laptops and desktops 1200px and below**
     * About section
         * Divs are displayed on top of each other rather than side by side. The size was also adjusted to better fit the screen size. 
@@ -91,11 +91,14 @@ To make sure the site works well on all screen sizes I found three different key
 3. **Smaller devices 500px and below**
     * Hero-image
         * The text box in the hero image is removed and the actual text is instead placed underneath the hero image. The font-size is also reduced. 
+4. **Smaller devices 400px and below**
+    * Contact and social media
+        * Size is adjusted to fit even the smallest screens. Size for Google maps adjusted so that it doesn't overflow when screen size is reduced. 
 
 ### **Lighthouse**
 ![Lighthouse](docs/screenshots/Lighthouse-score.png)
 All sections have been tested with Lighthouse for both mobile and desktop versions. The score for desktop was between 99-100 and for mobile between 98-100. 
-I found Lighthouse to be very helpful for identify poor practices such as using aria-labels on the input-fields in the form and title to the Google maps-link. 
+I found Lighthouse to be very helpful for identifying poor practices such as using aria-labels on the input-fields in the form, and title to the Google maps-link. 
 
 ### **Validators**
 All HTML files were run through (https://validator.w3.org/nu/#textarea) and my CSS file was run through (https://jigsaw.w3.org/css-validator/validator) to ensure all code meets the correct standard.
@@ -116,7 +119,7 @@ I deployed the website on GitHub pages via the following:
 You can access the live site via the following link [Oldbring Vehicle Storage](https://karinoldbring.github.io/Vehicle-storage/)
 
 ## **Technology used**
-Oldbring Vehicle Storage was built using HTML5 and CSS. 
+Oldbring Vehicle Storage was built using HTML5 and CSS3. 
 
 ## **Credits**
 
