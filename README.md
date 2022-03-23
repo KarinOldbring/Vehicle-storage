@@ -57,7 +57,7 @@ In general I stayed true to the initial design throughout the project.
 ### **Contact**
 ![Contact](docs/screenshots/contact.png)
 * The contact section gives the user the contact information for the business, and also the exact location. 
-* If a user for some reason does not want to leave their contact information, this section enables the user to easily get in touch with Oldbring Vehicle Storage. Phone, email and Google Maps are displayed. 
+* If a user for some reason does not want to leave their contact information, this section enables the user to easily get in touch with Oldbring Vehicle Storage. Phone, email and Google Maps are displayed. As the page size decreases the contact information and the map will be placed on top of each other rather then along side for better visibility. 
 * For this kind of business location is key and using Google Maps enables the user to get exat location of the business from their own location. 
 
 ### **Footer**
@@ -81,16 +81,16 @@ http://ami.responsivedesign.is/?url=https%3A%2F%2Fkarinoldbring.github.io%2FVehi
 I have performed extensive testing to make sure that the site is fully responsive on small, medium and large size screens. As well as testing in dev tools and using various mobile devices I also used "Am I Responsive" to ensure responsiveness. No website breaking issues were found. 
 To make sure the site works well on all screen sizes I found four different key widths were necessary. 
 1. **Laptops and desktops 1200px and below**
-    * About section
+    * About and contact section
         * Divs are displayed on top of each other rather than side by side. The size was also adjusted to better fit the screen size. 
 2. **Smaller laptops and devices 900px and below**
     * Nav-bar
-        * Smaller font-size for a better fit. The nav-bar list is to be displayed underneath company name, and in column on left hand side. 
+        * Smaller font-size for a better fit. The nav-bar list is to be displayed underneath company name, on the left hand side. 
     * Submit
         * The size of the forms submit button was changed to be clearly visible even on smaller devices. 
 3. **Smaller devices 500px and below**
     * Hero-image
-        * The text box in the hero image is removed and the actual text is instead placed underneath the hero image. The font-size is also reduced. 
+        * The text box in the hero image is removed not to clutter the site on small devices. The information provided on the text-box can be found in the about section below. 
 4. **Smaller devices 400px and below**
     * Contact and social media
         * Size is adjusted to fit even the smallest screens. Size for Google maps adjusted so that it doesn't overflow when screen size is reduced. 
